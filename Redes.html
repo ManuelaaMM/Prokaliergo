@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso-Redes Informáticas | Prokaliergo</title>
+    <link rel="stylesheet" href="styles/Styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/f1f8436a73.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="Inicio.html">PROKALIERGO</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Cursos</button>
+            <div class="dropdown-content">
+                <a href="Ofimatica.html">Ofimática</a>
+                <a href="Mantenimiento.html">Mantenimiento de equipos</a>
+                <a href="Redes.html">Redes</a>
+                <a href="Programacion.html">Programación</a>
+            </div>
+        </div>
+        <input type="text" class="search-bar" placeholder="Buscar cursos...">
+        <nav>
+            <nav>
+                <a href="Perfil.html"><i class="fa-solid fa-user-graduate"></i> @Username</a>
+            </nav>
+        </nav>
+    </header>
+
+    <main class="margin">
+        <h2>Redes Informáticas</h2>
+        <div id="course">
+            <div class="module" onclick="toggleSection('section1')">
+                <h2 class="module-title">1. Fundamentos de Redes <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section1" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section1-1')">1.1 Modelos OSI y TCP/IP</h3>
+                    <div id="section1-1" class="submodule-content">
+                        <a href="Imagenes/Redes.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section1-2')">1.2 Dispositivos de red y sus
+                        funciones</h3>
+                    <div id="section1-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia2.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section2')">
+                <h2 class="module-title">2. Mantenimiento Preventivo y Resolución de Problemas <i
+                        class="fa-solid fa-caret-down"></i></h2>
+                <div id="section2" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section2-1')">2.1 Técnicas de mantenimiento
+                        preventivo en redes</h3>
+                    <div id="section2-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section2-2')">2.2 Resolución de problemas
+                        comunes en redes
+                    </h3>
+                    <div id="section2-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section3')">
+                <h2 class="module-title">3. Gestión y Optimización de Redes <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section3" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section3-1')">3.1 Monitoreo y
+                        gestión de redes</h3>
+                    <div id="section3-1" class="submodule-content">
+                        <a href="Imagenes/Gestion y Optimización de redes.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section3-2')">3.2 Técnicas de optimización del
+                        rendimiento de la red
+                    </h3>
+                    <div id="section3-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section4')">
+                <h2 class="module-title">4. Ponchado de Cable <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section4" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section4-1')">4.1 Tipos de cables y conectores
+                    </h3>
+                    <div id="section4-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section4-2')">4.2 Procedimientos para el
+                        ponchado y prueba de cables
+                    </h3>
+                    <div id="section4-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prokaliergo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

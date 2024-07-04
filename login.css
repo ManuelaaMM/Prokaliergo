@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-section {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 75px;
+    margin: 20px 12%;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+}
+
+.register-form label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.register-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-form button {
+    padding: 10px;
+    background-color: #ff5fa7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #fc4698;
+}
+
+.register-form p {
+    margin-top: 10px;
+}
+
+.register-form a {
+    color: #ff5fa7;
+    text-decoration: none;
+}
+
+.register-form a:hover {
+    text-decoration: underline;
+}
+
+.recordar {
+    text-align: left;
+    font-size: 12px;
+    margin: 5px 0 50px 0;
+    color: #ff5fa7;
+}
+
+#password {
+    margin-bottom: 0;
+}

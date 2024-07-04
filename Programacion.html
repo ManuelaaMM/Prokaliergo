@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso-Programación | Prokaliergo</title>
+    <link rel="stylesheet" href="styles/Styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/f1f8436a73.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="Inicio.html">PROKALIERGO</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Cursos</button>
+            <div class="dropdown-content">
+                <a href="Ofimatica.html">Ofimática</a>
+                <a href="Mantenimiento.html">Mantenimiento de equipos</a>
+                <a href="Redes.html">Redes</a>
+                <a href="Programacion.html">Programación</a>
+            </div>
+        </div>
+        <input type="text" class="search-bar" placeholder="Buscar cursos...">
+        <nav>
+            <nav>
+                <a href="Perfil.html"><i class="fa-solid fa-user-graduate"></i> @Username</a>
+            </nav>
+        </nav>
+    </header>
+
+    <main class="margin">
+        <h2>Programación</h2>
+        <div id="course">
+            <div class="module" onclick="toggleSection('section1')">
+                <h2 class="module-title">1. Introducción a la Programación <i class="fa-solid fa-caret-down"></i> </h2>
+                <div id="section1" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section1-1')">1.1 Conceptos básicos de
+                        programación y algoritmos</h3>
+                    <div id="section1-1" class="submodule-content">
+                        <a href="Imagenes/Programacion.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section1-2')">1.2 Estructuras de control y datos
+                    </h3>
+                    <div id="section1-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia2.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section2')">
+                <h2 class="module-title">2. Desarrollo Web (HTML/CSS) <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section2" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section2-1')">2.1 Fundamentos de HTML y
+                        estructuración de contenido</h3>
+                    <div id="section2-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section2-2')">2.2 Estilización y diseño de
+                        páginas web con CSS</h3>
+                    <div id="section2-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section3')">
+                <h2 class="module-title">3. Phyton <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section3" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section3-1')">3.1 Sintaxis y estructuras básicas
+                        de Python</h3>
+                    <div id="section3-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section3-2')">3.2 Programación orientada a
+                        objetos en Python</h3>
+                    <div id="section3-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section4')">
+                <h2 class="module-title">4. JavaScript <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section4" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section4-1')">4.1 Fundamentos de JavaScript y
+                        manipulación del DOM</h3>
+                    <div id="section4-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section4-2')">4.2 Introducción a frameworks y
+                        bibliotecas de JavaScript (como React)
+                    </h3>
+                    <div id="section4-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prokaliergo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

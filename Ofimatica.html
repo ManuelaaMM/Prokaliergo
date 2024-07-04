@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso-Ofimática | Prokaliergo</title>
+    <link rel="stylesheet" href="styles/Styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/f1f8436a73.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="Inicio.html">PROKALIERGO</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Cursos</button>
+            <div class="dropdown-content">
+                <a href="Ofimatica.html">Ofimática</a>
+                <a href="Mantenimiento.html">Mantenimiento de equipos</a>
+                <a href="Redes.html">Redes</a>
+                <a href="Programacion.html">Programación</a>
+            </div>
+        </div>
+        <input type="text" class="search-bar" placeholder="Buscar cursos...">
+        <nav>
+            <nav>
+                <a href="Perfil.html"> <i class="fa-solid fa-user-graduate"></i> @Username </a>
+            </nav>
+        </nav>
+    </header>
+    <main class="margin">
+        <h2>Ofimática</h2>
+        <div id="course-vieo">
+            <div class="course"></div>
+            <div class="module" onclick="toggleSection('section1')">
+                <h2 class="module-title">1. Introducción a la Ofimática y
+                    Procesadores de texto <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section1" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section1-1')">1.1 Conceptos básicos y
+                        aplicaciones de la ofimática</h3>
+                    <div id="section1-1" class="submodule-content">
+                        <a href="Imagenes/Ofimática.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section1-2')">1.2 Procesadores de Texto -
+                        Funciones Básicas</h3>
+                    <div id="section1-2" class="submodule-content">
+                        <a href="Imagenes/Procesadores de Texto.jpeg" download><i class="fa-solid fa-download"></i>
+                            Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module">
+                <h2 class="module-title" onclick="toggleSection('section2')">2. Avanzando en el Procesador de Texto <i
+                        class="fa-solid fa-caret-down"></i></h2>
+                <div id="section2" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section2-1')">2.1 Automatización de tareas con
+                        macros</h3>
+                    <div id="section2-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section2-2')">2.2 Técnicas avanzadas de formato
+                        y diseño de documentos</h3>
+                    <div id="section2-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module">
+                <h2 class="module-title" onclick="toggleSection('section3')">3. Introducción a las Hojas de Cálculo <i
+                        class="fa-solid fa-caret-down"></i></h2>
+                <div id="section3" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section3-1')">3.1 Funciones básicas y fórmulas
+                        en hojas de cálculo</h3>
+                    <div id="section3-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section3-2')">3.2 Organización y gestión de
+                        datos en hojas de cálculo</h3>
+                    <div id="section3-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module">
+                <h2 class="module-title" onclick="toggleSection('section4')">4. Avanzando en Hojas de Cálculo <i
+                        class="fa-solid fa-caret-down"></i></h2>
+                <div id="section4" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section4-1')">4.1 Uso de funciones avanzadas y
+                        tablas dinámicas</h3>
+                    <div id="section4-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section4-2')">4.2 Análisis de datos y gráficos
+                        en hojas de cálculo</h3>
+                    <div id="section4-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module">
+                <h2 class="module-title" onclick="toggleSection('section5')">5. Presentaciones <i
+                        class="fa-solid fa-caret-down"></i></h2>
+                <div id="section5" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section5-1')">5.1 Creación de presentaciones
+                        efectivas</h3>
+                    <div id="section5-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download>Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section5-2')">5.2 Integración de multimedia y
+                        animaciones en presentaciones</h3>
+                    <div id="section5-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download>Recursos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Prokaliergo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

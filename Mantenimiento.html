@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso-Mantenimiento de Equipos | Prokaliergo</title>
+    <link rel="stylesheet" href="styles/Styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/f1f8436a73.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="Inicio.html">PROKALIERGO</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Cursos</button>
+            <div class="dropdown-content">
+                <a href="Ofimatica.html">Ofimática</a>
+                <a href="Mantenimiento.html">Mantenimiento de equipos</a>
+                <a href="Redes.html">Redes</a>
+                <a href="Programacion.html">Programación</a>
+            </div>
+        </div>
+        <input type="text" class="search-bar" placeholder="Buscar cursos...">
+        <nav>
+            <nav>
+                <a href="Perfil.html"><i class="fa-solid fa-user-graduate"></i> @Username</a>
+            </nav>
+        </nav>
+    </header>
+
+    <main class="margin">
+        <h2>Mantenimiento de Equipos</h2>
+        <div id="course">
+            <div class="module" onclick="toggleSection('section1')">
+                <h2 class="module-title">1. Fundamentos del Mantenimiento <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section1" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section1-1')">1.1 ¿Qué es Mantenimiento?</h3>
+                    <div id="section1-1" class="submodule-content">
+                        <a href="Imagenes/Mantenimiento.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section1-2')">1.2 Importancia del mantenimiento
+                        en la vida útil de los equipos</h3>
+                    <div id="section1-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia2.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section2')">
+                <h2 class="module-title">2. Mantenimiento preventivo <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section2" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section2-1')">2.1 Programación y planificación
+                        del mantenimiento preventivo</h3>
+                    <div id="section2-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section2-2')">2.2 Técnicas y herramientas
+                        utilizadas en el mantenimiento preventivo</h3>
+                    <div id="section2-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section3')">
+                <h2 class="module-title">3. Mantenimiento correctivo <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section3" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section3-1')">3.1 Diagnóstico y reparación de
+                        fallas</h3>
+                    <div id="section3-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section3-2')">3.2 Procedimientos para la
+                        sustitución de componentes defectuosos
+                    </h3>
+                    <div id="section3-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section4')">
+                <h2 class="module-title">4. Seguridad en el mantenimiento <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section4" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section4-1')">4.1 Normativas y regulaciones de seguridad</h3>
+                    <div id="section4-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section4-2')">4.2 Equipos de protección personal (EPP) y su uso adecuado
+                    </h3>
+                    <div id="section4-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module" onclick="toggleSection('section5')">
+                <h2 class="module-title">5. Gestión del mantenimiento <i class="fa-solid fa-caret-down"></i></h2>
+                <div id="section5" class="module-content">
+                    <h3 class="submodule-title" onclick="toggleSection('section5-1')">5.1 Software de gestión de mantenimiento (CMMS)
+                    </h3>
+                    <div id="section5-1" class="submodule-content">
+                        <a href="ruta/a/tu/infografia3.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                    <h3 class="submodule-title" onclick="toggleSection('section5-2')">5.2 Indicadores clave de rendimiento (KPIs) en el mantenimiento</h3>
+                    <div id="section5-2" class="submodule-content">
+                        <a href="ruta/a/tu/infografia4.jpeg" download><i class="fa-solid fa-download"></i> Recursos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prokaliergo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

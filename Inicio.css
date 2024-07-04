@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #000;
+    height: 48px;
+    color: #ff5fa7;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a{
+    font-family: 'Fredoka One';
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 12px;
+    color: #ff5fa7;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.login {
+    background-color: none;
+    color: #ff5fa7;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+    border-radius: 6px;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    border: 2px solid #ff5fa7;
+}
+
+.login:hover {
+    color: aliceblue;
+    background-color: #ff5fa7;
+    cursor: pointer;
+    transition: 0.2s; 
+}
+
+._login {
+    background-color: #000;
+}
+
+main h1 {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+    font-size: 44px;
+    margin: auto;
+}
+
+main .image-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0; 
+}
+
+main .content {
+    width: 50%;
+    margin: 0 10%;
+    margin-left: 5%;
+    border-bottom: 2px solid #333;
+}
+
+
+main .content p {
+    color: #333;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+main .image {
+    width: 45%;
+}
+
+main .image img {
+    height: 100%;
+}
+
+.courses {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.courses h1 {
+
+    margin: 5% auto;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course {
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+}
+
+.course:hover {
+    transform: translateY(-25px);
+    transition-duration: 0.5s;
+    border-bottom: solid #333;
+}
+
+.course img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.course h2 a{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    color: #000;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.course h2 a:hover{
+    text-decoration: underline;
+}
+
+.course p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 20px;
+
+}
+
+.Iniciar{
+    margin: 5% 0;
+    text-align: center;
+    padding: 50px 0;
+    border-top: 2px solid #000;
+}
+
+.Iniciar h1 {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+    font-size: 44px;
+    margin: auto auto 5%;
+}
+
+.Iniciar a{
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    padding: 20px;
+    margin: 0;
+    border-radius: 6px;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-decoration: none;
+}
+
+.Iniciar a:hover {
+    background-color: #ff5fa7;
+    color: #000;
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #ff5fa7;
+}
+
+details {
+    font-family: 'Open Sans';
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+details p{
+    font-size: 12px !important;
+}
+
+
+.rule {
+    margin-bottom:11.5%;
+}
+
+
+.video {
+    text-align: center;
+    margin: 5% auto;
+}
+
+video {
+    border: 5px solid #000;
+    margin-top: 2%;
+}
